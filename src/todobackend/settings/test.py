@@ -1,5 +1,7 @@
 from base import *
 import os
+import pymysql
+pymysql.install_as_MySQLdb()
 
 # Installed Apps
 INSTALLED_APPS += ('django_nose', )
