@@ -11,7 +11,7 @@ setup (
                           "django-cors-headers>=1.1.0",
                           "djangorestframework>=3.3.1",
                           "MySQL-python>=1.2.5",
-                          "PyMySQL==0.7.11",
+                          "PyMySQL==1.1.1",
                           "uwsgi>=2.0"],
   extras_require       = {
                             "test": [
